@@ -1,4 +1,4 @@
-; Assemble the file   : nasm -f elf32 hello_world_32.asm -o hello_world_32.o
+db; Assemble the file   : nasm -f elf32 hello_world_32.asm -o hello_world_32.o
 ; Link:                 ld -m elf_i386 hello_world_32.o -o hello32 
 ; Run/Execute:          ./hello32
 
