@@ -16,7 +16,7 @@ loop_body:
     ; Convert counter to ASCII
     mov rax, r12
     add al, '0'
-    mov [digit], al
+    mov [digit], al ;
 
     ; Print number
     mov rax, 1
